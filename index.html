@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>
+Amir website
+
+    </title>
+
+    <link rel="stylesheet" href="index.css">
+  
+
+</head>
+
+    <body>
+
+        <h1> HI IM  Amir AND I WILL SHOW YOU HOW TO CHANGE THE CONTEXT THROUGH MY WEBSITE </h1> 
+
+
+<!-- The html element the function will target hence change -->
+<p id="reply">Quick press the button below to find out!</P>
+
+
+<!-- The button with an event based -->
+<button type="button" onclick="myFunction()">DO IT!</button>
+
+
+<h1>I am a headline made with HTML</h1>
+<p>And I am a simple text paragraph. The color of this text is styled with CSS. Click the button below to remove me through the power JavaScript.</p>
+<button>Hide the text above</button>
+
+<script>
+function myFunction() {
+
+    document.getElementById("reply").innerHTML = "HI MY NAME IS AMIR IM IN CLASS AND KIND OF LEARNING CODING MY FAVORITE SPORT IS FOOTBALL IM IN GRADE 6 IM 11 YEARS OLD FROM IRAN AND LIVING IN THE UAE WITH MY FAMILY AND IVE MADE MANY THINGS IN MY TIME LEARNING coding ";}
+
+  // 1. Create the button
+var button = document.createElement("button");
+button.innerHTML = "Do Something";
+
+// 2. Append somewhere
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(button);
+
+// 3. Add event handler
+button.addEventListener ("click", function() {
+  alert("did something");
+});  
+
+
+    
+   
+
+
+  
+
+
+</script>
+
+
+</body>
+
+</html>
